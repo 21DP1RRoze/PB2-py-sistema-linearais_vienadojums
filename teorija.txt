@@ -1,0 +1,18 @@
+Vienādojumus, kuriem ir vienas un tās pašas saknes, sauc par ekvivalentiem vienādojumiem.
+Par ekvivalentiem pārveidojumiem sauc pārveidojumus, kuru rezultātā no dotā vienādojuma iegūst tam ekvivalentu vienādojumu.
+Vienādojuma abām pusēm pieskaitot vienu un to pašu skaitli vai izteiksmi, iegūst tam ekvivalentu vienādojumu. Piemērs: 3x-2=7 |+2 -> 3x-2+2=7+2 -> 3x=9
+Vienādojuma abas puses reizinot vai dalot ar vienu un to pašu skaitli, kurš nav nulle, iegūst tam ekvivalentu vienādojumu. Piemērs: 12x=24 |:12 -> 12x:12=24:12 -> x=2
+Vienādojums ir vienādība, kurā nezināmais skaitlis apzīmēts ar burtu.
+Par vienādojuma sakni sauc skaitli, kuru ievietojot vienādojumā mainīgā vietā iegūst patiesu skaitlisku vienādību.
+Piemērs: 5x-8=7 -> 5x=7+8 -> x=15:5 -> x=3; 3 ir vienādojuma sakne, jo 5*3-8=7.
+!! Atrisināt vienādojumu nozīmē atrast visas tā saknes vai pamatot, ka vienādojumam sakņu nav. !!
+Lineāram vienādojumam var būt viena sakne, bezgalīgi daudz saknes vai arī neviena sakne.
+Ja vienādojuma labajā un kreisajā pusē uzrakstītās izteiksmes ir identiski vienādas, tad vienādojumam ir bezgalīgi daudz atrisinājumu. Piemērs: 3x-9=3x-9 -> 3x-3x=9-9 -> 0=0; x var būt jebkurš skaitlis.
+Ja vienādojuma labajā un kreisajā pusē uzrakstītās izteiksmes ne ar kādām x vērtībām nevar būt vienādas, tad vienādojumam nav atrisinājuma. Piemērs: 2x+4=2x-6 -> 2x-2x=-6-4 -> 0=-10; atrisinājuma nav, tukša kopa
+Visos pārējos gadījumos lineāram vienādojumam ir tieši viena sakne.
+Ja vienādība satur vienu mainīgo un jāatrod mainīgā visas tās vērtības, ar kurām vienādība ir patiesa, tad saka, ka dotā vienādība ir vienādojums ar vienu mainīgo.
+Piemēram, vienādība 2+(3−1)=4 nav vienādojums, bet 2+(x−1)=4 ir vienādojums, kura sakne ir 3.
+Tās mainīgā vērtības, ar kurām vienādība ir patiesa, sauc par vienādojuma atrisinājumiem jeb saknēm.
+!! Vienādojuma sakne var būt tikai skaitlis, kas pieder pie vienādojuma definīcijas apgabala. !!
+Viens no vienādojumu veidiem ir lineārs vienādojums.
+Par lineāru vienādojumu sauc vienādojumu ax+b=0, kur a un b ir reāli skaitļi.

@@ -1,0 +1,13 @@
+1) Kurš no skaitļiem ir vienādojuma 4−4y=−24 sakne? $ y= 
+2) Atrisini lineāru vienādojumu -10+5h=13 ! $ h= 
+3) Aprēķini lineāra vienādojuma 4-10b=-16 sakni! $ b= 
+4) Aprēķini lineāra vienādojuma 7+0.4h=−15 sakni! $ h=  
+5) Atrisini lineāru vienādojumu (6/7)*m=-30 ! $ m= 
+6) Nosaki vienādojuma 4(3x−8)−15=11(x+2) sakni! $ x= 
+7) Vai vienadojumam 6m+2=6m+2 ir bezgalīgi daudz sakņu? (ja/ne) $ Atbilde= 
+8) Vai vienadojumam 6m=17m sakne m ir -1? (ja/ne) $ Atbilde= 
+9) Vai vienadojumam 6m+2=6m+8 ir kāda sakne? (ja/ne) $ Atbilde= 
+10) Atrisini vienādojumu 2(x+12)=0 ! $ x= 
+11) Vienādojumā mx=70+m ievieto m vietā tādu skaitli, lai izveidotos vienādojums, kura sakne ir 8. Zināms, ka m ir vesels skaitlis. $ m vērtība ir 
+12) Nosaki, ar kādu parametra vērtību vienādojuma ax+7=11x+5a atrisinājums ir x=0. $ Vienādojuma atrisinājums ir 0, ja a= 
+13) Skolā, kurā mācās 407 skolēni, ir q klases. Visās klasēs ir vienāds skolēnu skaits. Skola vēlas pasūtīt matemātikas grāmatas tā, lai katram skolēnam būtu grāmata un vēl katrā klasē būtu 2 liekas grāmatas. Cik grāmatu jāpasūta? $ Ir jāpasūta 407+
