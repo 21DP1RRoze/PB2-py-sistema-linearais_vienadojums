@@ -6,7 +6,7 @@ Izveidoja: Roberts Rozenvalds DP1-1
 '''
 
 from operator import ne
-import os # 
+import os 
 import time
 
 def teorijas_lasisana(): # 1. daļa - teorijas daļa.
@@ -21,20 +21,23 @@ def teorijas_lasisana(): # 1. daļa - teorijas daļa.
     print("> > > Teorijas beigas! Malacis!")
     faila_mainigais.close()
 
-teorijas_lasisana() # 1. daļas izsaukšana
+ # 1. daļas izsaukšana
 
-turpinajums = False
-while turpinajums == False: # vai lietotājs vēlas izlasīt teoriju vēlreiz? Ja jā, tiek izsaukta funkcija teorijas_lasisana, ja nē, programma turpinās
-    atbilde = input("Vai vēlaties teoriju lasīt velreiz? (ja/ne) ")
-    atbilde = atbilde.replace(" ", "")
-    if atbilde.lower() == "ja":
-        os.system('cls')
-        teorijas_lasisana()
-    elif atbilde.lower() == "ne":
-        turpinajums = True
-        os.system('cls')
-    else:
-        print("Nepareiza komanda. Lūdzu, ievadiet \"ja\" vai \"ne\". ")
+def turpinajuma_izvele(funkcija, darbiba):  # Funkcija, kas ļauj lietotajam izvēlēties tālāko darbību.
+    turpinajums = False
+    while turpinajums == False: # vai lietotājs vēlas darbību veikt vēlreiz?
+        atbilde = input("Vai vēlaties {0}? (ja/ne) ".format(darbiba))
+        atbilde = atbilde.replace(" ", "")
+        if atbilde.lower() == "ja":
+            os.system('cls')
+            funkcija()
+        elif atbilde.lower() == "ne":
+            turpinajums = True
+            os.system('cls')
+        else:
+            print("Nepareiza komanda. Lūdzu, ievadiet \"ja\" vai \"ne\". ")
+
+turpinajuma_izvele(teorijas_lasisana, "lasīt teoriju")
 
 def uzdevumu_pildisana(): # 2. daļa - trenēšanās uzdevumi.
     fails_uzdevumi = open('uzdevumi.txt', 'r', encoding='utf-8') # Atver failu ar pareizo šifrēšanu.
@@ -61,18 +64,7 @@ def uzdevumu_pildisana(): # 2. daļa - trenēšanās uzdevumi.
         
 uzdevumu_pildisana() # 2. daļas izsaukšana
 
-turpinajums = False # vai lietotājs vēlas izpildīt uzdevumus  vēlreiz? Ja jā, tiek izsaukta funkcija uzdevumu_pildisana, ja nē, programma turpinās
-while turpinajums == False:
-    atbilde = input("Vai vēlaties uzdevumus pildīt velreiz? (ja/ne) ")
-    atbilde = atbilde.replace(" ", "")
-    if atbilde.lower() == "ja":
-        os.system('cls')
-        uzdevumu_pildisana()
-    elif atbilde.lower() == "ne":
-        turpinajums = True
-        os.system('cls')
-    else:
-        print("Nepareiza komanda. Lūdzu, ievadiet \"ja\" vai \"ne\". ")
+turpinajuma_izvele(uzdevumu_pildisana, "pildīt uzdevumus vēlreiz")
 
 def pd_pildisana(): # 3. daļa - pārbaudes darbs.
     fails_uzdevumi = open('pd.txt', 'r', encoding='utf-8') # Atver failu ar pareizo šifrēšanu.
